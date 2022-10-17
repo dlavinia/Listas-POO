@@ -22,7 +22,7 @@ class Program {
       b = c;
       c = x;
     }
-
+                                                                                                         
     Console.WriteLine($"{a}\n{b}\n{c}\n\n{s[0]}\n{s[1]}\n{s[2]}");
   }
 }
