@@ -34,7 +34,7 @@ class PecaDomino{
 
   public bool Combinar(PecaDomino pd){
     bool combina = false;
-    if (pd.GetLadoE() == this.ladoE || pd.GetLadoD() == this.ladoD){
+    if (pd.GetLadoE() == this.ladoE || pd.GetLadoD() == this.ladoE  || pd.GetLadoD() == this.ladoD || pd.GetLadoE() == this.ladoD ){
       combina = true;
     }
     return combina;
